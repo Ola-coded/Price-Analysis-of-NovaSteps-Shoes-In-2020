@@ -19,6 +19,47 @@ The goal was to understand how brands, materials, colors, genders, sizes, and sh
 
 4. Provide strategic, data-backed recommendations for product planning, marketing, and inventory decisions.
 
+
+
+𝐌𝐞𝐭𝐡𝐨𝐝𝐨𝐥𝐨𝐠𝐲:
+1. 𝐃𝐚𝐭𝐚 𝐂𝐨𝐥𝐥𝐞𝐜𝐭𝐢𝐨𝐧
+
+𝐃𝐚𝐭𝐚𝐬𝐞𝐭 𝐒𝐨𝐮𝐫𝐜𝐞: https://www.kaggle.com/datasets/rkiattisak/shoe-prices-dataset
+
+•	𝐅𝐢𝐞𝐥𝐝𝐬: Brand, Model, Material, Type, Gender, Color, Size, and Price.
+
+2. 𝐃𝐚𝐭𝐚 𝐂𝐥𝐞𝐚𝐧𝐢𝐧𝐠 𝐚𝐧𝐝 𝐏𝐫𝐞𝐩𝐚𝐫𝐚𝐭𝐢𝐨𝐧
+Removed duplicates and corrected inconsistencies (e.g., brand name spelling).
+•	Standardized data formats (e.g., price as currency, size as numeric).
+•	Categorized variables (e.g., shoe type, material, size).
+
+3. 𝐃𝐚𝐭𝐚 𝐀𝐧𝐚𝐥𝐲𝐬𝐢𝐬
+     •    𝐃𝐞𝐬𝐜𝐫𝐢𝐩𝐭𝐢𝐯𝐞 𝐀𝐧𝐚𝐥𝐲𝐭𝐢𝐜𝐬:
+o	Total price contributions by brand, model, type, material, color, size, and gender.
+
+•	𝐓𝐫𝐞𝐧𝐝 𝐀𝐧𝐚𝐥𝐲𝐬𝐢𝐬:
+o	Analyzed price variation across sizes and gender preferences.
+
+•	𝐂𝐨𝐦𝐩𝐚𝐫𝐚𝐭𝐢𝐯𝐞 𝐀𝐧𝐚𝐥𝐲𝐬𝐢𝐬:
+o	Compared models and materials to identify the highest contributing ones.
+
+4. 𝐃𝐚𝐭𝐚 𝐕𝐢𝐬𝐮𝐚𝐥𝐢𝐳𝐚𝐭𝐢𝐨𝐧
+•	Used charts such as:
+o	Bar Charts for price distribution across brands, models, colors, materials.
+o	Line Chart for size trend analysis.
+o	Pie Chart for gender-based price segmentation.
+
+•	Highlighted insights like:
+o	Most used brand (Adidas), top material (Mesh), and leading type (Running).
+
+5. 𝐃𝐚𝐬𝐡𝐛𝐨𝐚𝐫𝐝 𝐃𝐞𝐬𝐢𝐠𝐧
+•	Created an interactive dashboard using Microsoft Excel
+•	Included slicers for filtering by material, model, and brand for user-driven insights.
+•	Ensured clarity and color consistency to enhance visual storytelling.
+
+
+
+
 𝐊𝐞𝐲 𝐈𝐧𝐬𝐢𝐠𝐡𝐭𝐬
 
 🌟 Adidas led the way with a total price of $14,655, proving to be the most valued and widely chosen brand.
